@@ -1,24 +1,10 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Should renderer with default values :  1`] = `
-<div>
-  if(props.expenses.length==0)?(
-  <p>
-     Nothing is here to show up
-  </p>
-  ):(
-  )
-</div>
-`;
+exports[`Should renderer with default values :  1`] = `<div />`;
 
 exports[`should Expense List renderer   successfully here 1`] = `
 <div>
-  if(props.expenses.length==0)?(
-  <p>
-     Nothing is here to show up
-  </p>
-  ):(
-  <Connect(ExpenseListItem)
+  <ExpenseListItem
     amount={195}
     createedAt={0}
     description="Gum"
@@ -26,7 +12,7 @@ exports[`should Expense List renderer   successfully here 1`] = `
     key="1"
     note=""
   />
-  <Connect(ExpenseListItem)
+  <ExpenseListItem
     amount={109500}
     createedAt={-345600000}
     description="Rent"
@@ -34,7 +20,7 @@ exports[`should Expense List renderer   successfully here 1`] = `
     key="2"
     note=""
   />
-  <Connect(ExpenseListItem)
+  <ExpenseListItem
     amount={4500}
     createedAt={345600000}
     description="Credit Card"
@@ -42,6 +28,5 @@ exports[`should Expense List renderer   successfully here 1`] = `
     key="3"
     note=""
   />
-  )
 </div>
 `;

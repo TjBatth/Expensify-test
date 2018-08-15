@@ -15,11 +15,6 @@ exports[`should render ExpenseListItem successfully 1`] = `
       -  
     -345600000
   </p>
-  <button
-    onClick={[Function]}
-  >
-    Remove Item
-  </button>
 </div>
 `;
 
@@ -34,10 +29,5 @@ exports[`should render ExpenseListItem with no props successfully 1`] = `
   <p>
       -  
   </p>
-  <button
-    onClick={[Function]}
-  >
-    Remove Item
-  </button>
 </div>
 `;
