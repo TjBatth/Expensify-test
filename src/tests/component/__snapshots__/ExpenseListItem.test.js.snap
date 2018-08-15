@@ -11,9 +11,9 @@ exports[`should render ExpenseListItem successfully 1`] = `
     </h3>
   </Link>
   <p>
-    109500
-      -  
-    -345600000
+    $109,500.00
+      -
+    Dec 28th, 1969
   </p>
 </div>
 `;
@@ -27,7 +27,9 @@ exports[`should render ExpenseListItem with no props successfully 1`] = `
     <h3 />
   </Link>
   <p>
-      -  
+    $0.00
+      -
+    Jan 1st, 1970
   </p>
 </div>
 `;
