@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render ExpenseListItem successfully 1`] = `
+<div>
+  <Link
+    replace={false}
+    to="/edit/2"
+  >
+    <h3>
+      Rent
+    </h3>
+  </Link>
+  <p>
+    109500
+      -  
+    -345600000
+  </p>
+  <button
+    onClick={[Function]}
+  >
+    Remove Item
+  </button>
+</div>
+`;
+
+exports[`should render ExpenseListItem with no props successfully 1`] = `
+<div>
+  <Link
+    replace={false}
+    to="/edit/undefined"
+  >
+    <h3 />
+  </Link>
+  <p>
+      -  
+  </p>
+  <button
+    onClick={[Function]}
+  >
+    Remove Item
+  </button>
+</div>
+`;
